@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.nav{
+           height : 60px;
+           color: white;
+           background: #0f1111;
+           display: flex;
+           align-items: center;
+           justify-content: space-evenly;
+}
+
+.nav-logo{
+    height:50px;
+    width : 100px;
+   
+}
+
+.logo{
+
+    background-image: url("/logoofpro.png");
+    background-size: cover;
+    height: 50px;
+    width:100%;
+}
+
+.border{
+    border:1.5px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid white;
+    border-radius:5px;
+}
+
+#para1{
+    font-size: 12px ;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.location{
+    display: flex;
+    
+}
+#para2{
+    font-size:16px ;
+    color: #fdf9f9;
+    margin-left: 4px;
+}
+
+.search-section{
+    height: 30px;
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.select{
+   border-top-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   border: none;
+}
+
+.search-area{
+    width: 100%;
+    border: none;
+    font-size: 18px;
+
+}
+.search-icon{
+    width: 45px;
+    background-color: rgb(236, 164, 9);
+    font-size:1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color : #0f1111;
+}
+
+span{
+    font-size:10px
+}
+
+.sec-4{
+    font-size:12px;
+    font-weight: 700rem; 
+}
+
+.cart-sec i{
+    font-size: 35px;
+    
+}
+
+.cart-sec{
+    display: flex;
+    align-items: center;
+    font-weight:700rem ;
+}
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+}
+
+.panel-ops p{
+    display : inline;
+    margin-right: 15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-weight:700rem ; 
+    font-size: 0.9rem;
+}
+
+ /* hero section */
+ .hero-sec{
+    background-image: url("/HERO_SECTION.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+ }
+
+ .hero-msg{
+    background-color: #2c2b2b;
+    color: #e2e7e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 0.85rem;
+    margin-bottom: 20px;
+    width: 90%;
+ }
+
+ .hero-msg a{
+    color: rgb(10, 67, 105);
+    text-decoration: none;
+ }
+
+ /* shopping */
+ .shop-sec{
+    
+    background-color: #e2e7e6;
+     display: flex;
+     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+
+ 
+ .box{
+        height: 300px;
+        width: 22%;
+        background-color: #fdf9f9;
+        padding:20px 0px 15px 0px  ;
+        margin-top: 20px;
+ }
+
+ .box-img{
+
+    background-size: cover ; 
+    height:240px;
+    margin: 5px;
+
+ }
+
+ .box-img:hover{
+    border: 2px solid whitesmoke;
+ }
+
+ .box-content{
+    margin-left: 10px;
+    margin-right: 10px ;
+ } 
+
+ .box-content p{
+    color: #222f3d;
+ } 
+
+ /* footer */
+
+ .footer1{
+    background-color: #222f3d;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+ }
+
+ .footer2{
+    height: 250px;
+    background-color: #2c353e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     color: white;  
+ }
+
+ ul a{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-top: 10px;
+    display: block;
+
+ }
+
+ .footer3{
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    color: #e7e3e3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+ .logofoot{
+    background-image: url("/logoofpro.png");
+    background-size: cover;
+    height: 50px;
+    width:80px;
+ }
+
+ .footer4{
+    background-color: #1a2734;
+    height: 80px;
+    color: #e2e7e6;
+   text-align: center;
+   font-size: 0.8rem;
+ }
+
+  .pages{
+    padding-top: 25px; 
+ } 
+
+ .pages a{
+    margin: 4px;
+ }
+
+ .copyrights{
+     padding-top:10px ; 
+ }
